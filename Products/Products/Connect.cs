@@ -15,8 +15,8 @@ namespace Products
         {
             Host = "localhost";
             Database = "Shop";
-            User = "Products";
-            Password = "#1Kando12345";
+            User = "root";
+            Password = "";
             MysqlConnectionString = "SERVER=" + Host + ";DATABASE=" + Database + ";UID=" + User + ";PASSWORD=" + Password + ";SslMode=None";
             Connection = new MySqlConnection(MysqlConnectionString);
         }

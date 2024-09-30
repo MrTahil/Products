@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "Products.Controllers.WeatherForecastController",
+    "ContainingType": "Products.Controllers.ProductsController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Products.WeatherForecast, Products, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Products.Model.Product, Products, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +17,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]
